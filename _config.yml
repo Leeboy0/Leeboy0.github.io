@@ -1,5 +1,5 @@
 # site settings
-title: Forty
+title: Boyi's Website
 subtitle: by HTML5 UP
 email: leeboy0501@gmail.com
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
@@ -14,7 +14,7 @@ country: United States of America
 phone: 2067735734
 
 # homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
+tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 6
 
 # social settings (key must match name of font awesome icon)
