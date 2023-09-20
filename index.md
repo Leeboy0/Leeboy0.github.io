@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, this is Boyi Li's Website'
+landing-title: 
 description: null
 image: null
 author: null
