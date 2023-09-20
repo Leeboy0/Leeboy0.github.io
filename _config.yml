@@ -1,10 +1,10 @@
 # site settings
 title: Boyi's Website
-subtitle: by HTML5 UP
+subtitle: 
 email: leeboy0501@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+description: 
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: https://leeboy0.github.io/ # the base hostname & protocol for your site
+url:  # the base hostname & protocol for your site
 author:
 street_address: 21550 Box Springs Road, Apt 1103
 city: Moreno Valley  
