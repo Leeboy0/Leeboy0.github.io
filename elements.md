@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Education
-image: assets/images/ucr_800x450.jpg
+image: assets/images/ucr_800x450.png
 nav-menu: true
 ---
 
