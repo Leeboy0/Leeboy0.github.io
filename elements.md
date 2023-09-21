@@ -16,11 +16,18 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
-<h2 id="content"> **University of California, Riverside                                                  	Jan 2022 – June 2024**  </h2>
+<h2 id="content"> **University of California, Riverside Jan 2022 – June 2024**  </h2>
 <p>		                                                
 Bachelor of Science in Electrical Engineering, Embedded Systems & VLSI Focus
 Minor in Computer Science
 </p>
+
+<h2 id="content"> **Irvine Valley College                                                                        2020 Jan - 2021 Dec**  </h2>
+<p>		                                                
+Associate of Science in Math/Physics/Natural Sciences
+Associate of Arts in Emphasis in Liberal Studies
+</p>
+
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Sem turpis amet semper</h3>
