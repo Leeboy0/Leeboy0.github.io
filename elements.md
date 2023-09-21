@@ -16,8 +16,8 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
-<h2 id="content">Sample Content</h2>
-<p>University of California, Riverside			                                                Jan 2022 – June 2024 
+<h2 id="content"> University of California, Riverside	Jan 2022 – June 2024  </h2>
+<p>		                                                
 Bachelor of Science in Electrical Engineering, Embedded Systems & VLSI Focus
 Minor in Computer Science
 </p>
