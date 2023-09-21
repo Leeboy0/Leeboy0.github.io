@@ -22,7 +22,7 @@ Bachelor of Science in Electrical Engineering, Embedded Systems & VLSI Focus
 Minor in Computer Science
 </p>
 
-<h2 id="content"> Irvine Valley College  &nbsp;&nbsp; 2020 Jan - 2021 Dec  </h2>
+<h2 id="content"> Irvine Valley College  &nbsp;&nbsp;  Jan 2020 -  Dec 2021  </h2>
 <p>		                                                
 Associate of Science in Math/Physics/Natural Sciences
 Associate of Arts in Emphasis in Liberal Studies
