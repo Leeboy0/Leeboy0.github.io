@@ -518,7 +518,7 @@ h3 {
 
     position: absolute;
     left: 282px;
-    top: 840px;
+    top: 610px;
 }
 
 .xd img {
@@ -630,11 +630,10 @@ h3 {
     position: relative;
     text-align: center;
     color: #919191;
-    top: 50px;
     font-weight: 100;
     font-size: 15px;
-    top: 1500px;
-    padding-top: 200px;
+    top: 950px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -1498,4 +1497,129 @@ h3 {
 @media only screen and (min-width: 1370px) and (max-width: 1630px) {
 
 
+}
+
+
+/* ================================================
+   SKILL TEXT LISTS (replacing SVG skill cards)
+   ================================================ */
+
+.skill_list {
+    position: absolute;
+    left: 282px;
+    top: 480px;
+    max-width: 920px;
+}
+
+.skill_list p {
+    color: #ffffff;
+    font-family: Blender Pro;
+    font-weight: 100;
+    font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+    line-height: 1.5;
+}
+
+.skill_list2 {
+    position: absolute;
+    left: 282px;
+    top: 660px;
+    max-width: 920px;
+}
+
+.skill_list2 p {
+    color: #00F0FF;
+    font-family: Blender Pro;
+    font-weight: 100;
+    font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+    line-height: 1.5;
+}
+
+/* ================================================
+   RESPONSIVE — SKILL LISTS & FOOTER OVERRIDES
+   ================================================ */
+
+@media only screen and (max-width: 480px) {
+    .skill_list {
+        position: absolute;
+        left: 135px;
+        top: 380px;
+        max-width: 310px;
+    }
+    .skill_list p { font-size: 12px; }
+    .skill_list2 {
+        position: absolute;
+        left: 135px;
+        top: 520px;
+        max-width: 310px;
+    }
+    .skill_list2 p { font-size: 12px; }
+    .software { top: 480px !important; }
+    .footer { top: 0 !important; }
+    .footer h2 { top: 820px !important; padding-top: 30px !important; }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 765px) {
+    .skill_list {
+        position: absolute;
+        left: 180px;
+        top: 420px;
+        max-width: 500px;
+    }
+    .skill_list p { font-size: 14px; }
+    .skill_list2 {
+        position: absolute;
+        left: 180px;
+        top: 560px;
+        max-width: 500px;
+    }
+    .skill_list2 p { font-size: 14px; }
+    .software { top: 520px !important; }
+    .footer { top: 0 !important; }
+    .footer h2 { top: 780px !important; padding-top: 30px !important; }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .skill_list {
+        position: absolute;
+        left: 190px;
+        top: 430px;
+        max-width: 650px;
+    }
+    .skill_list p { font-size: 15px; }
+    .skill_list2 {
+        position: absolute;
+        left: 190px;
+        top: 610px;
+        max-width: 650px;
+    }
+    .skill_list2 p { font-size: 15px; }
+    .software { top: 570px !important; }
+    .footer { top: 0 !important; }
+    .footer h2 { top: 850px !important; padding-top: 30px !important; }
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+    .skill_list {
+        position: absolute;
+        left: 192px;
+        top: 460px;
+        max-width: 780px;
+    }
+    .skill_list p { font-size: 17px; }
+    .skill_list2 {
+        position: absolute;
+        left: 192px;
+        top: 640px;
+        max-width: 780px;
+    }
+    .skill_list2 p { font-size: 17px; }
+    .software { top: 600px !important; }
+    .footer { top: 0 !important; }
+    .footer h2 { top: 900px !important; padding-top: 30px !important; }
 }

@@ -1267,3 +1267,120 @@ nav ul li a:hover {
 }
 
 }
+
+
+/* ================================================
+   TEXT-BASED EXPERIENCE & PROJECT CARDS
+   ================================================ */
+
+.projects_wrapper {
+    position: relative;
+    top: 360px;
+    max-width: 760px;
+    width: calc(100% - 80px);
+    margin: 0 auto;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+
+.section_label {
+    font-family: Blender Pro;
+    font-size: 13px;
+    font-weight: 100;
+    color: #00F0FF;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 32px 0 16px 0;
+    border-bottom: 1px solid rgba(0, 240, 255, 0.2);
+    margin-bottom: 20px;
+}
+
+.card_content {
+    padding: 26px 32px;
+    background: rgba(2, 1, 6, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    font-family: Blender Pro;
+    opacity: 0.45;
+    filter: blur(2px);
+    transition: .3s;
+    cursor: default;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.card_content:hover {
+    opacity: 1;
+    filter: blur(0px);
+    border-color: #FCEE09;
+    box-shadow: 0 0 18px rgba(252, 238, 9, 0.12), 6px 0 0 #00E6F6;
+}
+
+.card_type {
+    color: #00F0FF;
+    font-family: Blender Pro;
+    font-size: 13px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.card_title_text {
+    color: #FCEE09;
+    font-family: Blender Pro;
+    font-size: 24px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.card_body_text p {
+    color: #ffffff;
+    font-family: Blender Pro;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1.7;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Override footer for text-card layout (projects_wrapper takes up normal flow) */
+.footer h2 {
+    top: 80px !important;
+}
+
+@media only screen and (max-width: 480px) {
+    .projects_wrapper { top: 290px; width: calc(100% - 32px); }
+    .card_content { padding: 18px 20px; }
+    .card_title_text { font-size: 16px; }
+    .card_body_text p { font-size: 12px; }
+    .footer { top: 0 !important; }
+    .footer h2 { top: 80px !important; }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 765px) {
+    .projects_wrapper { top: 310px; width: calc(100% - 40px); }
+    .card_content { padding: 20px 22px; }
+    .card_title_text { font-size: 18px; }
+    .card_body_text p { font-size: 13px; }
+    .footer { top: 0 !important; }
+    .footer h2 { top: 80px !important; }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .projects_wrapper { top: 320px; }
+    .footer { top: 0 !important; }
+    .footer h2 { top: 80px !important; }
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+    .projects_wrapper { top: 340px; }
+    .footer { top: 0 !important; }
+    .footer h2 { top: 80px !important; }
+}
+
+@media only screen and (min-width: 1370px) and (max-width: 1630px) {
+    .footer { top: 0 !important; }
+    .footer h2 { top: 80px !important; }
+}
