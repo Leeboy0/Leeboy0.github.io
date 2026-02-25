@@ -1,78 +1,32 @@
-![website_3](https://user-images.githubusercontent.com/61627702/130358598-09661c97-8ccc-4555-ab0c-2959978a4883.jpg)
-# Personal Website
+# Boyi Li-Vera — Personal Portfolio Site
 
-This multi-page personal website is used to provide more info about me, as well as to showcase the projects I've been working on in a creative way.
-The site's design is inspired by the 2020 action role-playing video game, Cyberpunk 2077.
+Live site: **[leeboy0.github.io](https://leeboy0.github.io)**
 
-## Installation
+A cyberpunk-themed personal portfolio and resume site built with vanilla HTML, CSS, and JavaScript, hosted on GitHub Pages.
 
-To use this site, no installations are required.
+## Pages
 
-## Usage
+| Page | Description |
+|------|-------------|
+| **Home** (`index.html`) | Landing page with glitch-effect name header and resume download |
+| **About** (`about.html`) | Bio, RTL & Scripting skills, Hardware Design & EDA tools |
+| **Projects** (`projects.html`) | Work experience and project cards with hover-reveal effect |
 
-> home.html
+## Tech Stack
 
-This html file contains the webpage structure for the home page of the website.
+- HTML5 / CSS3 / Vanilla JS
+- GitHub Pages (static hosting)
+- Font: Blender Pro
+- No frameworks or build tools
 
-> about.html
+## About Me
 
-This html file contains the webpage structure for the about page of the website.
+ECE graduate student at UC Irvine (M.S. Electrical & Computer Engineering, expected Dec 2026) with hands-on RTL/FPGA design and verification experience in SystemVerilog. Seeking a Summer 2026 internship in Design Verification, RTL Design, or Hardware Engineering.
 
-> projects.html
+**Contact:** boyi.li0501@gmail.com
+**LinkedIn:** [linkedin.com/in/boyi-livera](https://linkedin.com/in/boyi-livera)
+**GitHub:** [github.com/Leeboy0](https://github.com/Leeboy0)
 
-This html file contains the webpage structure for the projects page of the website.
+## Credits
 
-> loading.html
-
-This html file contains the webpage structure for the loading page of the website.
-
-> style.css
-
-This css file contains all the stylization for the home page of the website.
-
-> about.css
-
-This css file contains all the stylization for the about page of the website.
-
-> projects.css
-
-This css file contains all the stylization for the projects page of the website.
-
-> loading_animation.css
-
-This css file contains all the stylization for the loading page of the website.
-
-> main.js
-
-This javascript file contains scripts for the home page of the website.
-
-> loading_script.js
-
-This javascript file contains scripts for the loading page of the website.
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like changed.
-
-
-## License
-
-Copyright (c) 2021 Pathum Danthanarayana
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Forked and customized from [pathumd/2021_personal_site](https://github.com/pathumd/2021_personal_site). Original cyberpunk aesthetic, animations, and layout by Pathum Danthanarayana.
