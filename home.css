@@ -580,7 +580,10 @@ font-weight: 200;
 
 /*Optimization */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-  
+
+  body {
+      background-attachment: scroll;
+  }
 
   .text_header h1 {
 
@@ -661,7 +664,9 @@ font-weight: 200;
 
 @media only screen and (min-width: 360px) and (max-width: 765px) {
 
-
+  body {
+      background-attachment: scroll;
+  }
 
   .text_header h1 {
 
@@ -717,6 +722,9 @@ font-weight: 200;
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
+  body {
+      background-attachment: scroll;
+  }
 
   .text_header h1 {
 
